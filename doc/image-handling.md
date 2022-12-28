@@ -265,6 +265,7 @@ pretty common.
 For templates, the `when` key can be one or more of:
 
 - `create` (run at the time a new instance is created from the image)
+- `rename` (run at the time an instance is renamed)
 - `copy` (run when an instance is created from an existing one)
 - `start` (run every time the instance is started)
 
